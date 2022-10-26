@@ -1,26 +1,2 @@
-
-[splunk_license_master]
-SplunkLicenseMaster              ansible_ssh_host=192.168.10.110
-
-[splunk_cluster_master]
-SplunkClusterMaster              ansible_ssh_host=192.168.10.111
-
-[splunk_deployer]
-SplunkDeployer                   ansible_ssh_host=192.168.10.112
-
-[splunk_deployment_apps]
-SplunkDeploymentApps             ansible_ssh_host=192.168.10.113
-
-[splunk_search_heads]
-SplunkSearchHead01               ansible_ssh_host=192.168.10.114
-SplunkSearchHead02               ansible_ssh_host=192.168.10.115
-SplunkSearchHead03               ansible_ssh_host=192.168.10.116
-
-[splunk_indexers]
-SplunkIndexer01                  ansible_ssh_host=192.168.10.117
-SplunkIndexer02                  ansible_ssh_host=192.168.10.118
-SplunkIndexer03                  ansible_ssh_host=192.168.10.119
-
-[splunk_heavy_forwarders]
-SplunkHeavyForwarder01           ansible_ssh_host=192.168.10.120
-SplunkHeavyForwarder02           ansible_ssh_host=192.168.10.121
+10.0.13.236
+34.194.154.120
