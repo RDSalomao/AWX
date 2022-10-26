@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: private
   remote_user: ansible
   gather_facts: yes
   tasks:
