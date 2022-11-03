@@ -1,5 +1,2 @@
 private  ansible_ssh_host=10.0.13.236    ansible_ssh_port=22 ansible_user=ansible
 public   ansible_ssh_host=34.194.154.120 ansible_ssh_port=22 ansible_user=ansible
-test     ansible_ssh_host=127.0.0.1      ansible_ssh_port=22 ansible_user=ansible
-qa       ansible_ssh_host=34.194.154.120 ansible_ssh_port=22 ansible_user=ansible
-dev      ansible_ssh_host=34.194.154.120 ansible_ssh_port=22 ansible_user=ansible
