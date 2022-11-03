@@ -1,8 +1,8 @@
 ---
   # Ansible Playbook will run on the Localhost where AWX is installed
   - name: "Playing with Ansible."
-    hosts: localhost
-    connection: local
+    hosts: all
+    remote_user: ansible
     tasks:
       # Below task will execute the list of directories and files present
       - name: "just execute a ls -lrt command"
